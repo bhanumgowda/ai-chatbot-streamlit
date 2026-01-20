@@ -3,73 +3,149 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hello",
-        "Hey",
-        "Good morning",
-        "Good evening"
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "good morning",
+        "good evening",
+        "anyone there?",
+        "hey bot",
+        "hello chatbot"
       ],
       "responses": [
         "Hello! How can I help you today?",
-        "Hi there! What can I do for you?"
+        "Hi there! Ask me anything about the internship.",
+        "Hey! What would you like to know?"
       ]
     },
     {
-      "tag": "internship_info",
+      "tag": "internship_overview",
       "patterns": [
-        "What is AIML internship?",
-        "Tell me about internship",
-        "Internship details",
-        "What does this internship offer?"
+        "what is this internship",
+        "tell me about the internship",
+        "internship details",
+        "what is aiml internship",
+        "is this internship useful",
+        "what will I learn in this internship",
+        "give internship overview"
       ],
       "responses": [
-        "The AIML internship focuses on practical AI and Machine Learning skills."
+        "This internship focuses on practical AI and Machine Learning skills through hands-on projects.",
+        "It is a skill-based internship designed to give real-world experience in AIML.",
+        "You will learn core AI/ML concepts by working on practical tasks."
       ]
     },
     {
       "tag": "application_process",
       "patterns": [
-        "How can I apply?",
-        "Application process",
-        "How do I register?",
-        "How to apply for internship?"
+        "how can I apply",
+        "where do I apply",
+        "application link",
+        "how to register",
+        "how do I join",
+        "how can I enroll",
+        "apply for internship",
+        "registration process"
       ],
       "responses": [
-        "You can apply through the official internship application portal."
-      ]
-    },
-    {
-      "tag": "duration",
-      "patterns": [
-        "How long is the internship?",
-        "Internship duration",
-        "How many months is internship?"
-      ],
-      "responses": [
-        "The internship duration is typically between 1 to 3 months."
+        "You can apply through the official internship application portal.",
+        "Registration is done online via the official application link.",
+        "Please visit the official portal to complete your application."
       ]
     },
     {
       "tag": "eligibility",
       "patterns": [
-        "Who can apply?",
-        "Eligibility criteria",
-        "Am I eligible?"
+        "who is eligible",
+        "am I eligible",
+        "eligibility criteria",
+        "can beginners apply",
+        "do I need experience",
+        "is coding knowledge required",
+        "can first year students apply"
       ],
       "responses": [
-        "Students with basic programming knowledge are eligible to apply."
+        "Students with basic programming knowledge are eligible to apply.",
+        "Beginners are welcome if they are willing to learn.",
+        "No advanced experience is required to start this internship."
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "how long is the internship",
+        "internship duration",
+        "how many months",
+        "how many weeks",
+        "duration of internship",
+        "how long will it last"
+      ],
+      "responses": [
+        "The internship typically lasts between 1 to 3 months.",
+        "The duration depends on the specific internship track.",
+        "Most internships run for a period of 4 to 12 weeks."
+      ]
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "will I get a certificate",
+        "certificate provided",
+        "do you give certificate",
+        "certificate after internship",
+        "is certificate available"
+      ],
+      "responses": [
+        "Yes, a certificate is provided upon successful completion.",
+        "You will receive a certificate after completing the internship.",
+        "Certificates are awarded to participants who complete all requirements."
+      ]
+    },
+    {
+      "tag": "benefits",
+      "patterns": [
+        "what are the benefits",
+        "why should I join",
+        "is this internship worth it",
+        "what do I gain",
+        "advantages of internship"
+      ],
+      "responses": [
+        "You gain hands-on experience, practical skills, and a certificate.",
+        "This internship helps strengthen your resume with real projects.",
+        "You will build practical AIML experience useful for your career."
       ]
     },
     {
       "tag": "goodbye",
       "patterns": [
-        "Bye",
-        "Goodbye",
-        "See you later"
+        "bye",
+        "goodbye",
+        "see you",
+        "thanks",
+        "thank you",
+        "exit"
       ],
       "responses": [
         "Goodbye! Have a great day 😊",
-        "See you soon!"
+        "See you soon! All the best for your internship.",
+        "Happy learning! Feel free to come back."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "xyz",
+        "random text",
+        "I don't know",
+        "???",
+        "something else"
+      ],
+      "responses": [
+        "I'm not fully sure about that. Could you rephrase your question?",
+        "Sorry, I didn't understand. Can you ask in a different way?",
+        "Can you please be more specific?"
       ]
     }
   ]
