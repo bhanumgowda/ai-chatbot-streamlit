@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "internship_info",
+      "patterns": [
+        "What is AIML internship?",
+        "Tell me about internship",
+        "Internship details",
+        "What does this internship offer?"
+      ],
+      "responses": [
+        "The AIML internship focuses on practical AI and Machine Learning skills."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How can I apply?",
+        "Application process",
+        "How do I register?",
+        "How to apply for internship?"
+      ],
+      "responses": [
+        "You can apply through the official internship application portal."
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "How long is the internship?",
+        "Internship duration",
+        "How many months is internship?"
+      ],
+      "responses": [
+        "The internship duration is typically between 1 to 3 months."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Who can apply?",
+        "Eligibility criteria",
+        "Am I eligible?"
+      ],
+      "responses": [
+        "Students with basic programming knowledge are eligible to apply."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day 😊",
+        "See you soon!"
+      ]
+    }
+  ]
+}
